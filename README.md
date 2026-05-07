@@ -29,7 +29,12 @@ sudo bench setup add-domain --site mpdrealteck tools.mpdrealteck.com
 ```
 ```bash
 sudo -H bench setup lets-encrypt mpdrealteck --custom-domain tools.mpdrealteck.com
+
+
 ```
+Replace bench with this if shows error
+/home/developerkk/.local/bin/bench 
+
 skip below if possible
 ```bash
 bench config dns_multitenant on(skip if possible)
